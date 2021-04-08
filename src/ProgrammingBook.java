@@ -69,8 +69,8 @@ public class ProgrammingBook {
         this.framework = framework;
     }
 
-//    public int getAmount(){
-////        return amount;
-//    }
+    public int getAmount(){
+        return this.getNumber()*this.getPrice();
+    }
 }
 
